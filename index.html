@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список банков</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+</head>
+<body>
+    <div class="cat">
+        <h1>Список банков</h1>
+        <form action="/edit.html">
+            <button>Добавить банк</button>
+        </form>
+
+        <br><br>
+        <form class="catal-find">
+            <input type="text" placeholder="найти или отфильтровать" name="filter">
+            <input type="submit" value="Фильтовать">
+        </form>
+
+        <br><br>
+        <table class="cat-list"></table>
+    </div>
+</body>
+</html>
